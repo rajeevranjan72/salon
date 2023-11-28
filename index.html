@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon & Spa Appointment Booking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:whitesmoke;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color:rgb(20, 148, 228);
+            color:whitesmoke;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffffcc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h3>WELCOME TO:</h3>
+        <h1>Appointment Booking for Salon & Spas</h1>
+    </header>
+
+    <section>
+        <form>
+            <label for="name">Applicant Name::</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email::</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="service">Select Service::</label>
+            <select id="service" name="service" required>
+                <option value="haircut">HAIRCUT</option>
+                <option value="massage">MASSAGE</option>
+                <option value="facial">FACIAL</option>
+                <option value="bread trim">TRIMMING</option>
+            </select>
+
+            <label for="date">Select Date::</label>
+            <input type="Date" id="Date" name="Date" required>
+
+            <label for="Time">Select Time::</label>
+            <input type="Time" id="Time" name="time" required>
+            <label for="Payment"> Payment Type::</label>
+            <select id="payment type" name="payment type" required>
+                <option value="ONLINE">ONLINE</option>
+                <option value="offlINE">OFFLINE</option>
+            </select>
+
+            <button type="submit">Book Appointment</button>
+
+            <ul>
+                <li><a href="home">Home</a></li>
+                <br>
+                
+                    <li><a href="#About us"> About us</a></li>
+                   <br>
+                     <li><a href="#Contact us">Contact us</a></li>
+                        
+            </ul>
+            
+        </form>
+    </section>
+
+</body>
+</html>
